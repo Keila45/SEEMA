@@ -18,7 +18,7 @@ namespace SEMANA1
         {
             string nombre, carrera;
 
-            Console.Write("Ingrese su nombre: ");
+            Console.Write("\"Keila\"");
             nombre = Console.ReadLine();
 
             Console.Write("Ingrese su carrera: ");
@@ -29,13 +29,24 @@ namespace SEMANA1
         }
 
         static void ejer2()
-        {
+        { }
 
-        }
 
         static void ejer3()
         {
-            Console.WriteLine("\"Keila"\");
+            Console.WriteLine("Ingrese númeo 1: ");
+            int num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("iNGRESE NÚMERO 2:");
+            int num2 = int.Parse(Console.ReadLine());
+            
+            double divi = (double) num1 / (double) num2;
+            
+            Console.WriteLine("Suma: " + (num1 + num2));
+            Console.WriteLine("Resta: " + (num1 - num2));
+            Console.WriteLine("Multiplicación: " + (num1 * num2));
+            Console.WriteLine("División: " + divi); 
+
         }
 
         static void ejer4()

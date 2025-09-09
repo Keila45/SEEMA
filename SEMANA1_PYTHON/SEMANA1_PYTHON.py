@@ -4,4 +4,14 @@ def ejer1():
 
     print(f"\n{nombre}, bienvenido al curso de fudamentos de algoritmo de la carrera {carrera}")
 
-ejer1()
+def ejer2():
+    print("\"Keila\"")
+
+def ejer3():
+    num1 = int (input("Ingrese número 1: "))
+    num2 = int (input("Ingrese número 2: "))
+    
+    print("suma: ", (num1 + num2))
+    print("Resta: ", (num1 - num2))
+    print("Multiplicacón: ", (num1 * num2))
+    print("División: ", (num1 / num2))
